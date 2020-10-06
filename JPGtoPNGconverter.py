@@ -20,6 +20,6 @@ for f in source_folder.iterdir():
     with Image.open(f) as img:
         outfile = '.\\' + str(dest_folder) + '\\' + fn + '.png'
         img.save(outfile, 'png')
-print("done")
+
 
 # Save to new folder
