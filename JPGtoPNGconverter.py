@@ -18,8 +18,7 @@ for f in source_folder.iterdir():
     dfn, e = str(f).split('.')
     _, fn = dfn.split('\\')
     with Image.open(f) as img:
-        outfile = '.\\' + str(dest_folder) + '\\' + fn + '.png'
+        outfile = f'.\\{str(dest_folder)}\\{fn}.png'
         img.save(outfile, 'png')
-
 
 # Save to new folder
