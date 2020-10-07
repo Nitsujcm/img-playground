@@ -1,1 +1,1 @@
-# sample-project
+# img-playground
